@@ -1,0 +1,34 @@
+.NavBar {
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+}
+.NavBar .NavBar--logo{
+    width: 17%;
+}
+.NavBar .NavBar--logo img {
+    width: 100%;
+}
+
+.NavBar .NavBar--menu {
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+}
+.NavBar .NavBar--menu .NavBar--menu--item {
+    margin-left: 45px;
+    font-size: 23px;
+    font-weight: bold;
+}
+.NavBar .NavBar--menu .NavBar--menu--item:nth-child(1){
+    margin-left: 0;
+}
+.NavBar .NavBar--menu .NavBar--menu--book_now {
+    background: var(--orange-color);
+    padding: 19px 35px;
+    color:var(--dark-blue-color);
+}
+.NavBar .NavBar--menu .NavBar--menu--book_now:hover {
+    background: var(--dark-blue-color);
+    color: var(--orange-color);
+}

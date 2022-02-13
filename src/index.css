@@ -1,13 +1,29 @@
+:root {
+    --orange-color: #fdb414;
+    --dark-blue-color: #12284a;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background: cornflowerblue!important;
+    margin: 0;
+    padding: 0;
+    font-family: Brandon Grotesque, sans-serif;
+
+}
+* {
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Brandon Grotesque;
+    font-weight: bold;
+    src: url('media/font/Brandon_bld.otf');
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: Brandon Grotesque;
+    font-weight: medium;
+    src: url('media/font/Brandon_med.otf');
+}
+@font-face {
+    font-family: Brandon Grotesque;
+    src: url('media/font/Brandon_reg.otf');
 }

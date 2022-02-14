@@ -5,7 +5,7 @@
 
 .Testimonial--container {
     align-items: center;
-    padding: 200px 0;
+    padding: 250px 0;
 }
 .Testimonial--arrow_container {
     width: 10%;
@@ -35,14 +35,14 @@
     font-weight: 600;
 }
 .Testimonial--text {
-    font-size: 35px;
+    font-size: 40px;
 }
 .Testimonial--name {
-    font-size: 25px;
-    margin-top: 25px;
+    font-size: 28px;
+    margin-top: 35px;
 }
 .Testimonial--place {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 

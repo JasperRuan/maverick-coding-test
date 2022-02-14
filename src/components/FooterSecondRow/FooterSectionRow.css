@@ -1,0 +1,19 @@
+.FooterSecondRow {
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.FooterSecondRow--copyright {
+    margin-right: 15px;
+}
+
+@media screen and (max-width:1024px) {
+    .FooterSecondRow {
+        flex-direction: column;
+    }
+    .FooterSecondRow--copyright, .FooterSecondRow--agency {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,90 @@
+.FooterFirstRow {
+    color: white;
+    text-transform: uppercase;
+    padding-top: 150px;
+    padding-bottom: 80px;
+    align-items: center;
+}
+.FooterFirstRow--logo_container {
+
+}
+.FooterFirstRow--information_container {
+    width: 75%;
+}
+
+.FooterFirstRow--section1 {
+    width: 25%;
+    padding-right: 5%;
+}
+.FooterFirstRow--section1 img {
+    width: 100%;
+}
+
+.FooterFirstRow--section2 {
+    width: 15%;
+    padding-right: 2%;
+    align-self: start;
+}
+.FooterFirstRow--section3 {
+    width: 20%;
+    padding-right: 2%;
+    align-self: start;
+}
+.FooterFirstRow--section4 {
+    width: 10%;
+    padding-right: 2%;
+    align-self: start;
+}
+.FooterFirstRow--section5 {
+    width: 25%;
+    padding-right: 2%;
+    align-self: start;
+}
+.FooterFirstRow--section6 {
+    width: 5%;
+    text-align: right;
+    align-self: start;
+}
+
+.FooterFirstRow--section_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+.FooterFirstRow--section_item {
+    font-size: 16px;
+}
+.FooterFirstRow--section_social_icon {
+    margin-right: 5px;
+}
+.FooterFirstRow--section5_text {
+    font-size: 15px;
+}
+.FooterFirstRow--section5_btn {
+    padding: 5px 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .FooterFirstRow {
+        flex-direction: column;
+    }
+    .FooterFirstRow--section1,
+    .FooterFirstRow--section2,
+    .FooterFirstRow--section3,
+    .FooterFirstRow--section4,
+    .FooterFirstRow--section5,
+    .FooterFirstRow--section6 {
+        text-align: left;
+        margin-bottom: 35px;
+        width: 100%;
+    }
+    .FooterFirstRow--section1 img {
+        width: 250px
+    }
+}

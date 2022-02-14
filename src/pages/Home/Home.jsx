@@ -6,7 +6,6 @@ import HomeBannerImg from '../../media/img/home_banner.jpg';
 function Home(props) {
     return (
         <div>
-
             <Banner
                 firstLine='a new tropical'
                 secondLine='sailing experience'

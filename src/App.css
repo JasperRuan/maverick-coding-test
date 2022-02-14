@@ -4,6 +4,14 @@
 .flex {
     display: flex;
 }
+.btn {
+    background: var(--orange-color);
+    color: var(--dark-blue-color);
+    width: fit-content;
+    padding: 15px 25px;
+}
 .btn:hover {
+    background: var(--dark-blue-color);
+    color: var(--orange-color);
     cursor: pointer;
 }

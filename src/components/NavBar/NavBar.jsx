@@ -1,6 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 import Logo from '../../media/img/South Sea Sailing logo.png';
+import MenuIcon from '@mui/icons-material/Menu';
 
 function NavBar(props) {
     return (
@@ -13,6 +14,9 @@ function NavBar(props) {
                 <div className='NavBar--menu--item'>the boat</div>
                 <div className='NavBar--menu--item'>the region</div>
                 <div className='NavBar--menu--item NavBar--menu--book_now btn'>book now</div>
+            </div>
+            <div className='NavBar--burger_menu'>
+                <MenuIcon/>
             </div>
         </div>
     );

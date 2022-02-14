@@ -3,6 +3,9 @@
     justify-content: space-between;
     z-index: 1;
     padding-top: 20px;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
 .NavBar .NavBar--logo{
     width: 17%;
@@ -25,11 +28,39 @@
     margin-left: 0;
 }
 .NavBar .NavBar--menu .NavBar--menu--book_now {
-    background: var(--orange-color);
-    padding: 19px 35px;
-    color:var(--dark-blue-color);
+
 }
-.NavBar .NavBar--menu .NavBar--menu--book_now:hover {
-    background: var(--dark-blue-color);
-    color: var(--orange-color);
+.NavBar--burger_menu {
+    display: none;
+}
+.NavBar--burger_menu svg{
+    stroke: white!important;
+    fill: white!important;
+}
+
+
+
+
+@media screen and (max-width:1124px) {
+    .NavBar .NavBar--menu .NavBar--menu--item {
+        margin-left: 25px;
+        font-size: 15px;
+    }
+    .NavBar .NavBar--menu .NavBar--menu--book_now {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    .NavBar .NavBar--menu{
+        display: none;
+    }
+    .NavBar--burger_menu {
+        display: block;
+    }
+    .NavBar .NavBar--logo {
+        width: 30%;
+    }
+
+
 }

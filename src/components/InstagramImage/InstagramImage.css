@@ -1,0 +1,37 @@
+.Instagram--feed--image {
+    width: 16.66vw;
+    height: 16.66vw;
+    position: relative;
+}
+.Instagram--feed--image img {
+    width: 100%;
+}
+.Instagram--feed--image img:hover {
+    cursor: pointer;
+}
+.Instagram--feed-icon {
+    position: absolute;
+    z-index: 999;
+    top: 10px;
+    right: 10px;
+    color: white;
+}
+
+.Instagram--feed-icon .css-i4bv87-MuiSvgIcon-root {
+    width: 2.5rem!important;
+    height: unset;
+}
+
+@media screen and (max-width: 1024px){
+    .Instagram--feed--image {
+        width: 25vw;
+        height:25vw;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .Instagram--feed--image {
+        width: 33.33vw;
+        height:33.33vw;
+    }
+}

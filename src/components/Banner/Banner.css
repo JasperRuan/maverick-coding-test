@@ -5,8 +5,6 @@
     background-position: center;
     background-size: cover;
     align-items: center;
-    position: fixed;
-    top: 0;
     z-index: -1;
     letter-spacing: 10px;
 }
@@ -44,4 +42,44 @@
 }
 .down_arrow img {
     width: 75px;
+}
+
+@media screen and (max-width: 1024px) {
+    .Banner--text--first_line {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .Banner--text--second_line {
+        font-size: 50px;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .Banner--text--third_line {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .down_arrow img {
+        width: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Banner--text--first_line {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .Banner--text--second_line {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 10px;
+    }
+    .Banner--text--third_line {
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .down_arrow img {
+        width: 35px;
+    }
 }

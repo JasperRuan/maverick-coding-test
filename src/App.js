@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import React from "react";
 
+
 function App() {
   return (
     <div className="App">

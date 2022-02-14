@@ -1,10 +1,11 @@
 import React from 'react';
 import './Banner.css';
 import DownArrow from '../../media/img/Down arrow.png';
+import PatternBg from '../../media/img/Pattern.png';
 
 function Banner({firstLine,secondLine,thirdLine, BannerImg}) {
     return (
-        <div className='Banner grid-container flex' style={{backgroundImage:`url(${BannerImg})`}}>
+        <div className='Banner grid-container flex' style={{backgroundImage:`url(${PatternBg}), url(${BannerImg})`}}>
             <div className="Banner--text">
                 <div className="Banner--text--first_line">
                     {firstLine}

@@ -4,12 +4,13 @@ import Bg1 from '../../media/img/product_bg1.jpg';
 import Bg2 from '../../media/img/product_bg2.jpg';
 import Bg3 from '../../media/img/product_bg3.jpg';
 import Bg4 from '../../media/img/product_bg4.jpg';
+import Pattern from '../../media/img/Pattern.png';
 
 function ProductPageContent(props) {
     return (
         <div className='ProductPageContent'>
 
-            <div className='ProductPageContent--section flex grid-right' style={{backgroundImage:`url(${Bg1})`}}>
+            <div className='ProductPageContent--section flex grid-right' style={{backgroundImage:`url(${Pattern}),url(${Bg1})`}}>
                 <div>
                     <div className='ProductPageContent--title uppercase'>
                         a unique sailing experience
@@ -44,7 +45,7 @@ function ProductPageContent(props) {
                 </div>
             </div>
 
-            <div className='ProductPageContent--section flex grid-right' style={{backgroundImage:`url(${Bg3})`}}>
+            <div className='ProductPageContent--section flex grid-right' style={{backgroundImage:`url(${Pattern}),url(${Bg3})`}}>
                 <div>
                     <div className='ProductPageContent--title uppercase white-text'>
                         gourmet food & drink
@@ -63,7 +64,7 @@ function ProductPageContent(props) {
                 </div>
             </div>
 
-            <div className='ProductPageContent--section flex grid-left' style={{backgroundImage:`url(${Bg4})`}}>
+            <div className='ProductPageContent--section flex grid-left' style={{backgroundImage:`url(${Pattern}),url(${Bg4})`}}>
                 <div>
                     <div className='ProductPageContent--title uppercase white-text'>
                         snorkel unspoiled reefs

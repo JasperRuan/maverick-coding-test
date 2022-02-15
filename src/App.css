@@ -18,6 +18,9 @@
     color: var(--orange-color);
     cursor: pointer;
 }
+.white-text {
+    color: white;
+}
 .long_btn {
     font-size: 25px;
     background: var(--orange-color);

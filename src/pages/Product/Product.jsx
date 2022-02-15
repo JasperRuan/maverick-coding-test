@@ -6,6 +6,7 @@ import HomeBannerImg from "../../media/img/home_banner.jpg";
 import HomePageContent from "../../components/HomePageContent/HomePageContent";
 import Testimonial from "../../components/Testimonial/Testimonial";
 import Footer from "../../components/Footer/Footer";
+import ProductPageContent from "../../components/ProductPageContent/ProductPageContent";
 
 function Product(props) {
     return (
@@ -17,7 +18,7 @@ function Product(props) {
                 thirdLine='sailing adventures in fiji'
                 BannerImg={HomeBannerImg}
             />
-
+            <ProductPageContent/>
             <Testimonial/>
             <Footer/>
         </div>

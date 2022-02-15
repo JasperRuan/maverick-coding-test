@@ -1,3 +1,7 @@
+a {
+    color: unset;
+    text-decoration: unset;
+}
 .NavBar {
     align-items: center;
     justify-content: space-between;

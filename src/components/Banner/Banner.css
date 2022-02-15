@@ -44,7 +44,10 @@
     width: 75px;
 }
 
-@media screen and (max-width: 1024px) {
+
+
+
+@media screen and (max-width: 1424px) {
     .Banner--text--first_line {
         font-size: 50px;
         line-height: 50px;
@@ -83,3 +86,4 @@
         width: 35px;
     }
 }
+

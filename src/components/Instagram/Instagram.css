@@ -20,6 +20,6 @@
 }
 
 .Instagram--feed {
-    width: 100vw;
+    width: 100%;
     flex-wrap: wrap;
 }

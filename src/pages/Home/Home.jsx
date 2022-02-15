@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from "../../components/NavBar/NavBar";
 import Banner from "../../components/Banner/Banner";
 import HomeBannerImg from '../../media/img/home_banner.jpg';
+import HomePageContent from "../../components/HomePageContent/HomePageContent";
 
 function Home(props) {
     return (
@@ -12,6 +13,7 @@ function Home(props) {
                 thirdLine='sailing adventures in fiji'
                 BannerImg={HomeBannerImg}
             />
+            <HomePageContent/>
         </div>
     );
 }

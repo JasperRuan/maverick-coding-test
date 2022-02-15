@@ -9,9 +9,38 @@
     color: var(--dark-blue-color);
     width: fit-content;
     padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 25px;
 }
 .btn:hover {
     background: var(--dark-blue-color);
     color: var(--orange-color);
     cursor: pointer;
+}
+.long_btn {
+    font-size: 25px;
+    background: var(--orange-color);
+    color: var(--dark-blue-color);
+    width: fit-content;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.long_btn:hover {
+    background: var(--dark-blue-color);
+    color: var(--orange-color);
+    cursor: pointer;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+.box-right-side {
+    padding-left: 45%;
+}
+
+@media screen and (max-width: 970px)  {
+    .box-right-side {
+        padding-left: 0;
+    }
 }

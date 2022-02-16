@@ -46,4 +46,15 @@
     .box-right-side {
         padding-left: 0;
     }
+    .btn {
+        font-size: 20px;
+    }
+    .long_btn {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 570px){
+    .grid-container {
+        padding: 0 5%;
+    }
 }

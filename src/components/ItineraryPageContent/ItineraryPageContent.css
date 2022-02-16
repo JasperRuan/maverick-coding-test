@@ -1,0 +1,147 @@
+.Itinerary--title--section {
+    text-align: center;
+    padding: 150px 15%;
+}
+.Itinerary--title--line_one {
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 600;
+    color: var(--orange-color);
+}
+.Itinerary--title--line_two {
+    font-size: 65px;
+    line-height: 65px;
+    font-weight: 600;
+    color: var(--dark-blue-color);
+}
+.Itinerary--title--line_three {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--orange-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Itinerary--title--paragraph {
+    font-size: 25px;
+    line-height: 30px;
+    color: var(--dark-blue-color);
+    margin-bottom: 50px;
+}
+
+.Itinerary--section {
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.Itinerary--text-section {
+    padding: 0 9.2%;
+    width: 50%;
+}
+
+.Itinerary--text_block {
+    margin-bottom: 45px;
+}
+
+.Itinerary--text--title_block {
+    align-items: center;
+    margin-bottom: 10px;
+}
+.Itinerary--text--title_count {
+    margin-right: 10px;
+}
+.Itinerary--text--title_count img {
+    width: 80%;
+}
+
+.Itinerary--text--title_text_title {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    color: var(--dark-blue-color);
+}
+.Itinerary--text--title_text_subtitle {
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 600;
+    color: var(--orange-color);
+}
+.Itinerary--text--paragraph_block {
+    font-size: 20px;
+    line-height: 25px;
+    color: var(--dark-blue-color);
+}
+
+.Itinerary--image-section {
+    width: 50%;
+}
+.Itinerary--image-section img {
+    width: 100%;
+}
+
+.Itinerary_booknow_btn {
+    background: var(--dark-blue-color);
+    color: var(--orange-color);
+}
+.Itinerary_booknow_btn:hover {
+    background: var(--orange-color);
+    color: var(--dark-blue-color);
+}
+.Itinerary--btn--section {
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+
+@media screen and (max-width: 1600px) {
+    .Itinerary--title--line_one {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .Itinerary--title--line_two {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .Itinerary--text--title_text_title {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .Itinerary--text--title_text_subtitle {
+        font-size: 23px;
+        line-height: 23px;
+    }
+    .Itinerary--text--paragraph_block {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .Itinerary--text--title_count {
+        width: 70px;
+    }
+    .Itinerary--text--title_count {
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 1200px) {
+    .Itinerary--title--section {
+        text-align: center;
+        padding: 150px 9.2%;
+    }
+
+    .Itinerary--text--title_count {
+        width: 50px;
+    }
+    .Itinerary--section {
+        flex-direction: column;
+    }
+    .Itinerary--text-section, .Itinerary--image-section {
+        width: 100%;
+    }
+    .Itinerary--image-section {
+        padding: 0 9.2%;
+    }
+    .reverse_in_mobile {
+        flex-direction: column-reverse;
+    }
+}
